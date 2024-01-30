@@ -43,8 +43,12 @@ function App() {
         <td>
           <div id="btn-groups">
             <div id="left-group">
-              <a id="tweet-quote"><i class="fa fa-twitter fa-2x"></i></a>
-              <i class="fa fa-tumblr-square fa-2x"></i>
+              <a id="tweet-quote" href="https://www.twitter.com/intent/tweet" target="_blank">
+                <i class="fa fa-twitter fa-2x"></i>
+              </a>
+              <a href="https://www.tumblr.com" target="_blank">
+                <i class="fa fa-tumblr-square fa-2x"></i>
+              </a>
             </div>
             <div id="right-group">
               <button type="button" id="new-quote" onClick={changeQuote}>New quote</button>

@@ -9,29 +9,24 @@ body {
   align-items: center;
   justify-content: center;
   background-color: black;
-  /* border: 1px solid black; */
 }
 
 #quote-box {
   width: calc(100vw / 2.5);
   gap: 50%;
-  /* height: calc(100vh / 3 + 120px); */
   border-spacing: 0 0.5em;
   background-color: white;
   padding: 10px;
-  /* border: 1px solid red; */
 }
 
 #text {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
-  /* border: 1px solid red; */
 }
 
 #author {
   text-align: right;
-  /* border: 1px solid black; */
   margin-right: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 0.8em;
@@ -41,14 +36,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid black; */
 }
 
 #left-group {
-  /* width: 100px; */
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid black; */
   margin-left: 30px;
 }
 
@@ -61,12 +53,9 @@ body {
   padding: 8px;
   border-radius: 2px;
   border: none;
-  /* color: white; */
-  /* border: 1px solid black; */
 }
 
 #right-group {
   vertical-align: middle;
   text-align: center;
-  /* border: 1px solid black; */
 }
